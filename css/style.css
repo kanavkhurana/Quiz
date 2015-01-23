@@ -1,0 +1,48 @@
+ div {
+        border: 1px solid transparent;
+    }
+    .circle {
+        border-radius: 25px;
+        /*Radius taken to be half the circle height and width*/
+        
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        /*To vertically align the text within the circle*/
+        
+        width: 50px;
+        float: left;
+        background-color: white;
+        border-color: black;
+    }
+    .line {
+        height: 1px;
+        width: 20px;
+        float: left;
+        background-color: black;
+        position: relative;
+        top: 25px;
+    }
+    .header {
+        margin: 0 auto;
+        text-align: center;
+        width: 350px;
+    }
+    .heading{
+    	margin-bottom: 25px;
+    }
+    .score {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .question {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .input {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .submitQuestion {
+        margin-left: 25px;
+    }
